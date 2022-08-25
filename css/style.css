@@ -8,7 +8,7 @@
 }
 
 /* barra de navegacion */
-
+/*
 .navegacion {
     background-color: burlywood;
     list-style-type: none;
@@ -30,7 +30,7 @@
 .nav__menu a:hover {
     text-decoration: underline double;
 }
-
+*/
 .info,
 .buscador__resultado,
 .promos {
@@ -112,7 +112,7 @@
 
 }
 
-/* menu nosotros */
+/* menu nosotros
 
 .nosotros__main {
     background-color: rgb(150, 150, 150);
@@ -135,8 +135,8 @@
     margin: auto;
     padding: 10px;
 }
-
-/* menu contacto */
+ */
+/* menu contacto 
 
 .contacto__main {
     background-color: rgb(150, 150, 150);
@@ -149,7 +149,7 @@
 .contacto__parrafo {
     font-size: 12px;
 }
-
+*/
 /* menu catalogo */
 
 .contenedor-grid {
