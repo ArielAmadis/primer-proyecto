@@ -7,6 +7,28 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+::selection {
+    background-color: burlywood;
+    color: blueviolet;
+}
+
+/* barra de navegacion */
+
+.navbar-brand {
+    color: burlywood;
+}
+
+.nav-item a {
+    border: 2px solid rgba(0, 0, 0, 0.0);
+    transition: all 1s;
+}
+
+.nav-item a:hover {
+    color:  burlywood;
+    border: 2px solid burlywood;
+}
+
 /* barra de navegacion */
 /*
 .navegacion {
@@ -136,7 +158,7 @@
     padding: 10px;
 }
  */
-/* menu contacto 
+/* menu contacto
 
 .contacto__main {
     background-color: rgb(150, 150, 150);
@@ -150,6 +172,13 @@
     font-size: 12px;
 }
 */
+
+/* menu contacto */
+
+.container {
+    background-color: rgb(150, 150, 150)
+}
+
 /* menu catalogo */
 
 .contenedor-grid {
