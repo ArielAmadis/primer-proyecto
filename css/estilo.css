@@ -26,4 +26,49 @@
 .nav-item a:hover {
   color: burlywood;
   border: 2px solid burlywood;
+}
+
+.footer {
+  display: flex;
+  background-color: burlywood;
+  justify-content: center;
+}
+.footer .iconos {
+  display: flex;
+  align-items: center;
+}
+.footer .iconos .fab {
+  padding: 1rem;
+}
+
+.fa-facebook, .fa-instagram,
+.fa-youtube,
+.fa-twitter {
+  background-color: blue;
+}
+
+.fa-instagram {
+  background-color: orange;
+}
+
+.fa-youtube {
+  background-color: red;
+}
+
+.fa-twitter {
+  background-color: green;
+}
+
+.fa-facebook, .fa-instagram,
+.fa-youtube,
+.fa-twitter {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.fa-facebook:hover, .fa-instagram:hover,
+.fa-youtube:hover,
+.fa-twitter:hover {
+  background-color: blueviolet;
 }/*# sourceMappingURL=estilo.css.map */

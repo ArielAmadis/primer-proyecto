@@ -1,0 +1,44 @@
+.footer {
+    display: flex;
+    background-color: burlywood;
+    justify-content: center ;
+
+    .iconos {
+        display: flex;
+        align-items: center;
+
+        .fab {
+            padding: 1rem;
+        }
+    }
+}
+
+$social: (
+    facebook: blue,
+    instagram: orange,
+    youtube: red,
+    twitter: green,
+);
+
+@each $redsocial, $colordered in $social {
+    .fa-#{$redsocial} {
+        background-color: $colordered;
+    }
+}
+
+.fa-facebook {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+
+    &:hover {
+        background-color: blueviolet;
+    }
+}
+
+.fa-instagram,
+.fa-youtube,
+.fa-twitter {
+    @extend .fa-facebook;
+}
